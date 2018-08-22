@@ -366,14 +366,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/htc/ocn/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/htc/ocn/proprietary/vendor/etc/mixer_paths_qvr.xml:system/vendor/etc/mixer_paths_qvr.xml \
-    vendor/htc/ocn/proprietary/vendor/etc/perf/perf-profile0.conf:system/vendor/etc/perf/perf-profile0.conf \
-    vendor/htc/ocn/proprietary/vendor/etc/perf/perf-profile1.conf:system/vendor/etc/perf/perf-profile1.conf \
-    vendor/htc/ocn/proprietary/vendor/etc/perf/perf-profile2.conf:system/vendor/etc/perf/perf-profile2.conf \
-    vendor/htc/ocn/proprietary/vendor/etc/perf/perf-profile3.conf:system/vendor/etc/perf/perf-profile3.conf \
-    vendor/htc/ocn/proprietary/vendor/etc/perf/perf-profile4.conf:system/vendor/etc/perf/perf-profile4.conf \
-    vendor/htc/ocn/proprietary/vendor/etc/perf/perf-profile5.conf:system/vendor/etc/perf/perf-profile5.conf \
-    vendor/htc/ocn/proprietary/vendor/etc/perf/perf-profile6.conf:system/vendor/etc/perf/perf-profile6.conf \
-    vendor/htc/ocn/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
+    vendor/htc/ocn/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/htc/ocn/proprietary/vendor/etc/powerhint.xml:system/vendor/etc/powerhint.xml \
     vendor/htc/ocn/proprietary/vendor/etc/qvr/qvrservice_6dof_config.xml:system/vendor/etc/qvr/qvrservice_6dof_config.xml \
     vendor/htc/ocn/proprietary/vendor/etc/qvr/qvrservice_6dof_config_stereo.xml:system/vendor/etc/qvr/qvrservice_6dof_config_stereo.xml \
@@ -892,8 +885,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqseed3.so:system/vendor/lib/libqseed3.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
@@ -1113,10 +1104,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqseed3.so:system/vendor/lib64/libqseed3.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
